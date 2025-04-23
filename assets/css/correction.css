@@ -1,0 +1,32 @@
+/*@font-face {*/
+/*    font-family: 'BristoneReg'; !* Nombre de la fuente *!*/
+/*    src: url('../fonts/bristoneReg/bristoneReg.otf') format('opentype'); !* Ruta al archivo .otf *!*/
+/*    font-weight: normal; !* Opciones: normal, bold, etc. *!*/
+/*    font-style: normal; !* Opciones: normal, italic, etc. *!*/
+/*}*/
+
+/**{*/
+/*    font-family: 'BristoneReg', sans-serif !important; !* Usa la fuente personalizada *!*/
+/*}*/
+
+/*!* Aplica la fuente al documento *!*/
+/*body {*/
+/*    font-family: 'BristoneReg', sans-serif !important; !* Usa la fuente personalizada *!*/
+/*}*/
+
+
+.centerVertical {
+    display: flex;
+    align-items: center; /* Centra el objeto verticalmente */
+}
+
+.centerHorizontal {
+    display: flex;
+    justify-content: center; /* (Opcional) Centra el objeto horizontalmente */
+}
+
+.centerObject {
+    display: flex;
+    align-items: center; /* Centra el objeto verticalmente */
+    justify-content: center; /* (Opcional) Centra el objeto horizontalmente */
+}
