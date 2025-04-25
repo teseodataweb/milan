@@ -1,18 +1,51 @@
-/*@font-face {*/
-/*    font-family: 'BristoneReg'; !* Nombre de la fuente *!*/
-/*    src: url('../fonts/bristoneReg/bristoneReg.otf') format('opentype'); !* Ruta al archivo .otf *!*/
-/*    font-weight: normal; !* Opciones: normal, bold, etc. *!*/
-/*    font-style: normal; !* Opciones: normal, italic, etc. *!*/
-/*}*/
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-/**{*/
-/*    font-family: 'BristoneReg', sans-serif !important; !* Usa la fuente personalizada *!*/
-/*}*/
+/* Aplicar Poppins únicamente como fuente */
+html,
+body {
+    font-family: "Poppins", sans-serif !important;
+}
 
-/*!* Aplica la fuente al documento *!*/
-/*body {*/
-/*    font-family: 'BristoneReg', sans-serif !important; !* Usa la fuente personalizada *!*/
-/*}*/
+/* Aplicar Poppins a encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Aplicar Poppins a párrafos */
+p {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Aplicar Poppins a tablas y celdas */
+table,
+th,
+td {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Aplicar Poppins a listas */
+ul,
+ol {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Aplicar Poppins a enlaces */
+a {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Aplicar Poppins a botones */
+button {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Aplicar Poppins a elementos de código */
+pre,
+code {
+    font-family: "Poppins", sans-serif !important;
+}
+
 
 
 .centerVertical {
@@ -29,4 +62,16 @@
     display: flex;
     align-items: center; /* Centra el objeto verticalmente */
     justify-content: center; /* (Opcional) Centra el objeto horizontalmente */
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5%;
+}
+
+.hero-style6 {
+    padding: 73px 0 30px;
+}
+
+.transform0 {
+    width: 0;
 }
