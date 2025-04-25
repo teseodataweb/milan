@@ -46,8 +46,6 @@ code {
     font-family: "Poppins", sans-serif !important;
 }
 
-
-
 .centerVertical {
     display: flex;
     align-items: center; /* Centra el objeto verticalmente */
@@ -74,4 +72,8 @@ code {
 
 .transform0 {
     width: 0;
+}
+
+.maxHeight-120 {
+    max-height: 120px;
 }
