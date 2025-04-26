@@ -77,3 +77,55 @@ code {
 .maxHeight-120 {
     max-height: 120px;
 }
+
+.maxHeight-100 {
+    max-height: 100px;
+}
+
+.bg-theme {
+    background-color: #172A44 !important;
+}
+
+.scroll-top:after {
+    color: #172A44;
+    border: #172A44;
+}
+
+.scroll-top .progress-circle path {
+    stroke: #172A44;
+}
+
+.bg-light {
+    background-color: #AD8C5E !important;
+}
+
+.rent-card {
+    background: #172A44;
+}
+.th-btn.style-border2:hover {
+    background: #172A44;
+}
+
+.th-btn {
+    background-color: #172A44;
+}
+
+.text-theme {
+    color: #172A44 !important;
+}
+
+.contact-sec-map .location-map-address {
+    background: #172A44;
+}
+
+.about-contact-grid.style3 .about-contact-icon {
+    background: #172A44;
+}
+
+.footer-layout2-1 .footer-widget .widget_title {
+    color: #172A44;
+}
+
+.colorBlue {
+    color: #172A44;
+}
