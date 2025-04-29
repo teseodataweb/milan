@@ -71,7 +71,9 @@ code {
 }
 
 .transform0 {
-    width: 0;
+    width: 0 !important;
+    height: 0  !important;
+    opacity: 0 !important;
 }
 
 .maxHeight-120 {
@@ -95,10 +97,6 @@ code {
     stroke: #172A44;
 }
 
-.bg-light {
-    background-color: #AD8C5E !important;
-}
-
 .rent-card {
     background: #172A44;
 }
@@ -110,8 +108,35 @@ code {
     background-color: #172A44;
 }
 
+.th-btn.style-border2 {
+    border: 1px solid #AD8C5E;
+    color: #AD8C5E;
+}
+
+.th-btn.style-border2:hover {
+    border: #AD8C5E;
+    background-color: #AD8C5E;
+}
+
+.th-btn.style-border2.th-btn-icon:after {
+    width: 0%;
+    height: 0%;
+}
+
 .text-theme {
     color: #172A44 !important;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.bg-yellow {
+    background-color: #AD8C5E !important;
+}
+
+.text-yellow {
+    color: #AD8C5E !important;
 }
 
 .contact-sec-map .location-map-address {
@@ -129,3 +154,89 @@ code {
 .colorBlue {
     color: #172A44;
 }
+
+.th-menu-wrapper .mobile-logo {
+    background-color: #172A44;
+}
+
+.header-layout2 .th-menu-toggle.sidebar-btn {
+    background: #172A44;
+}
+
+.property-area-4 {
+    margin-top: 0%;
+    padding: 8%;
+}
+
+.d-none {
+    display: block !important;
+}
+
+@media (max-width: 992px) {
+    .d-none {
+        display: none !important;
+    }
+}
+
+.rent-card {
+    min-height: 444px;
+    max-height: 600px;
+}
+
+@media (max-width: 1400px) {
+    .rent-card {
+        min-height: 472px;
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .rent-card {
+        min-height: 534px;
+        max-height: 550px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .rent-card {
+        min-height: 590px;
+        max-height: 650px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .rent-card {
+        min-height: 500px;
+        max-height: 550px;
+    }
+}
+
+@media (max-width: 770px) {
+    .rent-card {
+        min-height: 444px;
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+    .rent-card {
+        min-height: 472px;
+        max-height: 500px;
+    }
+}
+
+.font-38 {
+    font-size: 38px !important;
+}
+
+.cellphoneEnable {
+    max-height: 80px;
+    max-width: none !important;
+}
+
+/* @media (max-width: 400px) {
+    .cellphoneEnable {
+        max-height: 80px;
+        max-width: none !important;
+    }
+} */
